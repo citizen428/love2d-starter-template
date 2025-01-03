@@ -1,0 +1,5 @@
+name = "Love Test"
+default_targets = ["appimage", "lovejs", "macos", "win64"]
+build_directory = "build"
+love_files = ["+*", "-*/.*"]
+love_version = "11.5"
